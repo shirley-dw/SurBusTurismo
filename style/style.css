@@ -1,0 +1,329 @@
+
+body{
+    background-color:black;
+    
+    }
+    /*Diseño responsive*/
+    @media all and (min-width:768px){
+    
+      
+    }
+    .parrafo {
+    color: #010101;
+    text-align: center;
+    padding: 15px;
+    font-family:'Dosis', sans-serif;
+    }
+    .parrafo1{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family:'Dosis', sans-serif;
+    }
+    
+    .caracter{
+     
+        margin: 10px;
+        font-style: normal;
+        color: #e65c27;
+        font-family:'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: xx-large;
+        text-align: center;
+    
+    }
+    .servicios {
+    display: flex;
+    justify-content: center;
+    padding: 21px;
+    color: #fd8206;
+    font-family:'Dosis', sans-serif;
+    font-style: normal;
+    font: size 21px;
+    }
+    .imagenes {
+    width: 100%;
+    border-radius: 50px;
+    }
+    
+    .subtitulos {
+    padding: 10px;
+    margin: 10px;
+    font-style: normal;
+    color: #fd8206;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    }
+    /*Redes sociales y contacto pie de pagina*/
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        background-color:black;
+        padding:0px;
+        text-align: center;
+      }
+      .flex-container div {
+        width: 200px;
+        margin: 50px;
+        text-align: center;
+        border: solid black;
+        color: white;
+        border-radius: 10px;
+        
+      }
+      footer a {
+        text-decoration: none;
+      }
+      footer .caja1 a {
+        color: #010101;
+      }
+     
+      .caja1 img {
+        width: 50px;
+        height: 50px;
+      }
+    
+      footer .caja2 a {
+        color: #010101;
+      }
+      .caja2 img{
+    width: 50px;
+    height: 50px;
+      }
+      footer .caja3 a { 
+        color: #010101;
+      }
+      .caja3 img {
+    width: 50px;
+    height: 50px;
+      }
+    .caja4 {
+    color: white;
+    font-size: 21px;
+    }
+        
+    * {
+        box-sizing: border-box;
+        margin:0;
+        padding:0;
+        font-size: 20px;
+    }
+    .h2 {
+        color: #e26b03;
+    }
+    
+    .header {
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height:100px;
+        padding:10px ;
+        
+       
+    }
+    .header .logo {
+    cursor: pointer;
+    }
+    
+    .header {
+    list-style: none;
+    }
+    
+    
+    .header .barradenavegacion li {
+    display: inline-block;
+    padding: 25px;
+    }
+    
+    .header .barradenavegacion li a {
+    color: #fd8206;
+    font-size: 30px;
+    font-family:'Oswald', sans-serif;
+    text-decoration: none;
+    }
+    
+    .header .barradenavegacion li a:hover {
+    color: white;
+    }
+    
+    .btn {
+        font-size: 30px;
+        font-weight: 500px;
+        font-family:'Oswald', sans-serif;
+        color: beige;
+        padding: 33px 20px;
+        background-color: #e26b03;
+        border: none;
+        border-radius: 00px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .btn li a:hover {
+    background-color: #ed850e;
+    color: #010101;
+    
+    }
+    
+    
+    /*Habilidades/ formulario de contacto*/
+    .container {
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    }
+    .content {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 50px;
+    }
+    
+    
+    .aptitudes1 {
+    background-color: #e26b03;
+    border-radius: 50px;
+    padding: 10px;
+    }
+    .aptitudes2 {
+    background-color: #e44226;
+    border-radius: 50px;
+    padding: 10px;
+    }
+    .aptitudes3 {
+    background-color: #f3c423;
+    border-radius: 50px;
+    padding: 10px;
+    }
+    .aptitudes4 {
+    background-color: #e65c27;
+    border-radius: 50px;
+    padding: 10px;
+    }
+    .aptitudes5 {
+    background-color: #f19d21;
+    border-radius: 50px;
+    padding: 10px;
+    }
+    .aptitudes6 {
+      background-color: #ee6226;
+      border-radius: 50px;
+      padding: 10px;
+    }
+    .aptitudes7 {
+     background-color: #f2a624;
+     border-radius: 50px;
+     padding: 10px;
+    }
+    /*formulario de contacto*/
+    .form {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end; 
+        font-family: 'Dosis', sans-serif;
+        font-size: 15px;
+        background-color: #ffffff;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .form input {
+        width: 20px;
+        height: 30px;
+        border: 1px solid #e26b03;
+        border-radius: 5px;
+    }
+    .form button {
+        background-color: #e26b03;
+        color: #ffffff;
+        border-radius: 0px;
+        cursor: pointer;
+    }
+    .form button:hover {
+        background-color: #ff9900;
+    }
+      
+    
+    /* Servicios*/
+    .container1 {
+      display: flex;
+      justify-content: space-between;
+      background-color:black;
+      }
+      .content1 {
+      flex: 1;
+      background-color: white;
+      padding: 50px;
+      margin: 20px;
+      text-align: center;
+      font-size: 35px;
+      font-family: 'Dosis', sans-serif;
+      border-radius: 50px;
+      }
+    /* Testimonios*/
+      .container-1 {
+        display: flex;
+        justify-content: space-between;
+        background-color:#ff9900 ;
+        }
+        .content-1 {
+        flex: 1;
+        padding: 20px;
+        margin: 0;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        border-radius: 50px;
+        }
+        .imagen-1{
+          width: auto;
+          border-radius: 50px;
+        }
+      
+    /*Protocolo COVID19*/
+    .container-2 {
+      background-color: #ff9900;
+    
+    }
+    .content-2 {
+    background-color: transparent;
+      margin: 50px;
+      text-align: center;
+      font-size: 5px;
+      font-weight: 5px;
+      font-family: 'Dosis', sans-serif;
+      border-radius: 50px;
+    
+    }
+    .caracter-1{
+    color: #010101;
+    font-style: normal;
+    font-family:'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    }
+    .subtitulos-1{
+    color: #000;
+    font-style: normal;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    }
+    /*Servicio empresas*/
+    .caracter-1{
+      margin: 10px;
+      font-style: normal;
+      color: black;
+      font-family:'Oswald', sans-serif;
+      font-weight: bold;
+      font-size: xx-large;
+      text-align: center;
+    }
+    
+    /*Pseudo Elementos*/

@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="./style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Sur Bus Turismo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+
+
+</head>
+      <body>
+        <div style="width: 100px; height: 100px;"></div>
+      </body>     
+    <header class="header">
+       <div class="logo">
+        
+        <img src="./assets/Viajes/LOGO_preview_rev_1.png" alt="logo" width=" 350px">
+       </div>
+
+       <nav>
+        <ul class="barradenavegacion">
+            <li><a href="#Empresa">Empresa</a></li>
+            <li><a href="#Service">Servicios</a></li>
+            <li><a href="#Clientes">Clientes</a></li>   
+             
+        </ul>
+
+    </nav>
+       
+<a href= "#Contacto" class="btn">Contacto</a>
+        </header>
+       
+<main>
+<section id="Empresa">
+    <div class="container">
+        <div class="content">
+            <p class="parrafo">Somos Alan y Roberto, dueños y choferes de Sur Bus Turismo.
+                Nos dedicamos al traslado de personas hace más de 25 años, brindando seguridad y confianza. </p>
+              
+                <p class="parrafo"> Ofrecemos un exclusivo servicio de traslado para empresas y particulares, con horarios flexibles acordes a las necesidades operativas de nuestros clientes. </p>
+                
+                <p class="parrafo">También contamos con un amplio cronograma de viajes turísticos, donde podrás visitar y conocer varios destinos de Argentina y principalmente de la provincia de Buenos Aires. </p>
+               
+                <p class="parrafo"> Poseemos unidades de último modelo equipadas con todas las comodidades, las mismas cuentan con habilitación del LiNTI y CNRT vigente. </p>
+             
+                <p class="parrafo"> Los vehículos son conducidos por sus propios dueños con amplia experiencia en el traslado de pasajeros, poseemos registro profesional el cual da garantía y confianza a todos aquellos que contratan nuestros servicios. </p>
+              
+                <p class="parrafo">Garantizamos una excelente atención, puntualidad, seguridad y confort. </p>
+                </p> 
+        </div>
+        <div class="content">
+            <h2 class="subtitulos">Caracteristicas de la empresa</h2>
+            <section class="content">
+               
+                    <div class="aptitudes1">Puntualidad</div>
+                    <br>
+                    <div class="aptitudes2">Seguridad</div>
+                    <br>
+                    <div class="aptitudes3">Responsabilidades</div>
+                    <br>
+                    <div class="aptitudes4">Profesionalismo</div>
+                    <br>
+                    <div class="aptitudes5">Compromiso</div>
+                    <br>
+                    <div class="aptitudes6">Respeto</div>
+                    <br>
+                    <div class="aptitudes7">Confort</div>   
+    
+    </div>
+    </div>
+</section> 
+<section>
+    <div class="container-2">
+        <div class="content-2">
+            <h2 class="subtitulos-1">SUR BUS TURISMO</h2>
+            <p class="parrafo">Servicio de traslados de personal para empresas y traslados a particulares. Combis y Charter. </p>
+                <h2 class="caracter-1">COVID 19 ¡CUMPLIMOS CON TODOS LOS PROTOCOLOS DE SEGURIDAD E HIGIENE! </h2>
+                <p class="parrafo">Ante esta situación Sur Bus desinfecta continuamente sus unidades ante cada viaje, manteniendo así la seguridad sanitaria de los pasajeros.</p>  
+        </div>
+        <div class="content-2">
+</section>
+
+
+<section id="Service">
+    <h2 class="subtitulos">Servicios</h2>
+    <div class="container1">
+        <div class="content1">   
+<h3 class="caracter">Viajes particulares</h3>
+    <p >Brindamos servicios de viajes particulares, empresariales, colegiales, equipos deportivos, productoras de medios audiovisuales. Disposición dentro de CABA, GBA y más.
+        Ofreciendo así, el alquiler temporario de combis con chofer para diferentes servicios y necesidades, adaptándonos a cada cliente.</p>
+    </div>
+    <div class="content1">
+<h3 class="caracter">Viajes empresariales</h3>
+    <p>Un servicio orientado al transporte de personal e industrias de todo tipo, otorgando seguridad y puntualidad en el traslado de sus valiosos empleados, optimizando su tiempo en planta.
+        Nos encargamos de realizar toda logística para ofrecerle la mejor ruta para sus empleados.</p>
+        
+    </div>
+    <div class="content1">
+ <h3 class="caracter">Viajes de turismo</h3>
+        <p >Contamos con un amplio cronograma de viajes turísticos, donde te ofrecemos una experiencia exclusiva e inolvidable.
+            Junto a Sur Bus Turismo podrás crear momentos memorables, recorriendo provincias Argentinas y principalmente la provincia de Buenos Aires. 
+            Seguí nuestras redes sociales y no te pierdas las actualizaciones.
+            </p>
+        </div>
+    
+        </div>
+</section>
+
+<section>
+    <h3 class="subtitulos">Testimonios</h3>
+    <div class="container-1">
+        <div class="content-1">   
+    <img class="imagen-1" src="./assets/Viajes/testimonio1.PNG" alt="">
+    </div>
+    <div class="content-1">
+   <img class="imagen-1" src="./assets/Viajes/testimonio2.PNG" alt="">
+    </div>
+    <div class="content-1">
+      <img class="imagen-1" src="./assets/Viajes/testimonio3.PNG" alt="">
+        </div>
+        </div>
+</section>
+<!--Formulario de contacto-->
+<h2 class="subtitulos">Realiza tus consulta mediante nuestro formulario de contacto</h2>
+<section id="Clientes">
+    <div class="container">
+        <div class="content">
+<h2 class="subtitulos">Clientes</h2>
+<p class="parrafo">Sur Bus Turismo agradece la confianza depositada en nuestros servicios de traslados de personal, apostando en seguir asistiendo de manera eficiente a todos nuestros clientes, mejorando e incrementando nuestras unidades para así lograr mayor confort, seguridad y puntualidad.</p>
+<p class="parrafo">Cualquier consulta o sugerencia no dude en comunicarse enviándonos un mensaje a nuestras líneas de WhatsApp 11-64422009 Alan / 11-40232004 Roberto, o a través de nuestros formularios de contacto.</p>     
+<br>
+</div>
+<div class="content">
+    <form action="https://mail.google.com/mail/u/1/#inbox" method="POST" target="_self">
+      
+<input name="name" type="text" required placeholder="Nombre y apellido..." class="form">
+
+<input name="email" type="email" required placeholder="Correo electronico" class="form">
+
+<input type="radio" value="Viajes particulares" name="viajes"> 
+<label for="" >Viajes particulares</label>
+<input type="radio" value="Viajes empresariales" name="viajes">
+<label for="" >Viajes empresariales</label>
+<input type="radio" value="Viajes de turismo" name="viajes">
+<label for="" >Viajes de turismo</label>
+
+<textarea name="" id="" cols="30" rows="10" required placeholder="Envia tu consulta" class="form"></textarea>
+<input type="checkbox" value="Aceptar terminos y condiciones" checked required>
+<label for="" >Aceptar terminos y condiciones</label>
+<input type="submit" class="form">
+<input type="reset" class="form">
+
+</form>    
+</div>
+</div>
+
+   
+
+</section>
+</main>
+
+
+
+
+
+<!-- Pie de pagina-->
+<h2 class="subtitulos">Contactanos en redes sociales</h2>
+<p class="parrafo1">Haciendo click te dirigiras automaticamente a la red social deseada</p>
+
+<footer>
+    <section id="Contacto"></section>
+    <section class="flex-container">
+        
+        
+        <div class="caja1">
+            <a rel="import" href="https://www.facebook.com/surbusturismo/">
+              <img src="./assets/Viajes/facebook.png" alt="Logo de Facebook">
+            </a>
+          </div>
+        <div class="caja2"><a rel="import" href="https://www.instagram.com/surbusturismo/">
+        <img src="./assets/Viajes/instagram.png" alt="">
+        </a>
+    </div>
+        <div class="caja3"><a rel="import" href="https://api.whatsapp.com/message/S3YOSNA3LU7PP1?autoload=1&app_absent=0/">
+<img src="./assets/Viajes/whatsapp.png" alt="">
+        </a>
+    </div>
+        <div class="caja4">&copy; Copyright 2023.Todos los derechos reservados.
+            Diseño Web SVD
+        </div>
+    </section>
+</section>
+</footer>
+ 
+  
+
+  
+
+
+
+
+</html>
+
+
+
+
+
+
+body{
+background-color:black;
+
+}
+/*Diseño responsive*/
+@media all and (min-width:768px){
+
+  
+}
+.parrafo {
+color: #010101;
+text-align: center;
+padding: 15px;
+font-family:'Dosis', sans-serif;
+}
+.parrafo1{
+color: white;
+text-align: center;
+padding: 15px;
+font-family:'Dosis', sans-serif;
+}
+
+.caracter{
+ 
+    margin: 10px;
+    font-style: normal;
+    color: #e65c27;
+    font-family:'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+
+}
+.servicios {
+display: flex;
+justify-content: center;
+padding: 21px;
+color: #fd8206;
+font-family:'Dosis', sans-serif;
+font-style: normal;
+font: size 21px;
+}
+.imagenes {
+width: 100%;
+border-radius: 50px;
+}
+
+.subtitulos {
+padding: 10px;
+margin: 10px;
+font-style: normal;
+color: #fd8206;
+font-size: 40px;
+font-family: 'Oswald', sans-serif;
+font-weight: bold;
+text-align: center;
+}
+/*Redes sociales y contacto pie de pagina*/
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    padding:0px;
+    text-align: center;
+  }
+  .flex-container div {
+    width: 200px;
+    margin: 50px;
+    text-align: center;
+    border: solid black;
+    color: white;
+    border-radius: 10px;
+    
+  }
+  footer a {
+    text-decoration: none;
+  }
+  footer .caja1 a {
+    color: #010101;
+  }
+ 
+  .caja1 img {
+    width: 50px;
+    height: 50px;
+  }
+
+  footer .caja2 a {
+    color: #010101;
+  }
+  .caja2 img{
+width: 50px;
+height: 50px;
+  }
+  footer .caja3 a { 
+    color: #010101;
+  }
+  .caja3 img {
+width: 50px;
+height: 50px;
+  }
+.caja4 {
+color: white;
+font-size: 21px;
+}
+    
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-size: 20px;
+}
+.h2 {
+    color: #e26b03;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100px;
+    padding:50px ;
+    
+   
+}
+.header .logo {
+cursor: pointer;
+}
+
+.header {
+list-style: none;
+}
+
+
+.header .barradenavegacion li {
+display: inline-block;
+padding: 25px;
+}
+
+.header .barradenavegacion li a {
+color: #fd8206;
+font-size: 30px;
+font-family:'Oswald', sans-serif;
+text-decoration: none;
+}
+
+.header .barradenavegacion li a:hover {
+color: white;
+}
+
+.btn {
+    font-size: 30px;
+    font-weight: 500px;
+    font-family:'Oswald', sans-serif;
+    color: beige;
+    padding: 33px 20px;
+    background-color: #e26b03;
+    border: none;
+    border-radius: 00px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn li a:hover {
+background-color: #ed850e;
+color: #010101;
+
+}
+
+
+/*Habilidades/ formulario de contacto*/
+.container {
+display: flex;
+justify-content: space-between;
+background-color:black;
+}
+.content {
+flex: 1;
+background-color: white;
+padding: 20px;
+margin: 10px;
+text-align: center;
+font-size: 20px;
+font-family: 'Dosis', sans-serif;
+border-radius: 50px;
+}
+
+
+.aptitudes1 {
+background-color: #e26b03;
+border-radius: 50px;
+padding: 10px;
+}
+.aptitudes2 {
+background-color: #e44226;
+border-radius: 50px;
+padding: 10px;
+}
+.aptitudes3 {
+background-color: #f3c423;
+border-radius: 50px;
+padding: 10px;
+}
+.aptitudes4 {
+background-color: #e65c27;
+border-radius: 50px;
+padding: 10px;
+}
+.aptitudes5 {
+background-color: #f19d21;
+border-radius: 50px;
+padding: 10px;
+}
+.aptitudes6 {
+  background-color: #ee6226;
+  border-radius: 50px;
+  padding: 10px;
+}
+.aptitudes7 {
+ background-color: #f2a624;
+ border-radius: 50px;
+ padding: 10px;
+}
+/*formulario de contacto*/
+.form {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end; 
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.form input {
+    width: 20px;
+    height: 30px;
+    border: 1px solid #e26b03;
+    border-radius: 5px;
+}
+.form button {
+    background-color: #e26b03;
+    color: #ffffff;
+    border-radius: 0px;
+    cursor: pointer;
+}
+.form button:hover {
+    background-color: #ff9900;
+}
+  
+
+/* Servicios*/
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  background-color:black;
+  }
+  .content1 {
+  flex: 1;
+  background-color: white;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Dosis', sans-serif;
+  border-radius: 50px;
+  }
+/* Testimonios*/
+  .container-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color:#ff9900 ;
+    }
+    .content-1 {
+    flex: 1;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 50px;
+    }
+    .imagen-1{
+      width: auto;
+      border-radius: 50px;
+    }
+  
+/*Protocolo COVID19*/
+.container-2 {
+  background-color: #ff9900;
+
+}
+.content-2 {
+background-color: transparent;
+  margin: 50px;
+  text-align: center;
+  font-size: 5px;
+  font-weight: 5px;
+  font-family: 'Dosis', sans-serif;
+  border-radius: 50px;
+
+}
+.caracter-1{
+color: #010101;
+font-style: normal;
+font-family:'Oswald', sans-serif;
+font-weight: bold;
+font-size: xx-large;
+text-align: center;
+}
+.subtitulos-1{
+color: #000;
+font-style: normal;
+font-size: 40px;
+font-family: 'Oswald', sans-serif;
+font-weight: bold;
+text-align: center;
+}
+/*Servicio empresas*/
+.caracter-1{
+  margin: 10px;
+  font-style: normal;
+  color: black;
+  font-family:'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: xx-large;
+  text-align: center;
+}
+
+/*Pseudo Elementos*/
