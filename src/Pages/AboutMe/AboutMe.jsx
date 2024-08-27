@@ -7,7 +7,7 @@ const AboutMe = () => {
     return (
         <div className='about-container'>
             <div className='about-content'>
-            <img src="./imagenes/sprinter.jpg" alt="" className='about-img' />
+          
             <h1 className='title-about'>Empresa</h1>
             <span className='description-about'>Somos una agencia de viajes dedicada a crear momentos inolvidables junto a nuestros pasajeros.</span>
             <span className='description-about'>En Sur Bus Turismo ofrecemos servicios de traslado de personal para empresas y a particulares, con horarios flexibles acordes a las necesidades operativas de nuestros clientes.</span>

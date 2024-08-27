@@ -6,6 +6,7 @@ import Section from "./Components/Section/Section.jsx"
 import AboutMe from "./Pages/AboutMe/AboutMe.jsx"
 import Testimonials from "./Pages/Testimonials/Testimonials.jsx"
 
+
 function App() {
 
 
@@ -14,6 +15,7 @@ function App() {
     <Header/>
     <Section/>
     <AboutMe/>
+   
     <Testimonials/>
     </>
   )

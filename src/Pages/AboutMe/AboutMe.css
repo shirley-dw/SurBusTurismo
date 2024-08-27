@@ -4,10 +4,15 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
+    height: 100vh;
     background-color: black;
+    background-image: url(/imagenes/sprinter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* Para que la imagen se adapte al contenedor */
 }
 .about-content{
     width: 100vw;
+    height: 100vh;
     background: rgb(0, 0, 0);
     background: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgb(36, 37, 37) 0%, rgba(0, 0, 0, 0.9473039215686274) 100%);
     display: flex;
@@ -42,5 +47,5 @@
     text-align: justify;
     line-height:2rem;
     padding: 0.5rem;
-    top: -45rem;
+    
 }
