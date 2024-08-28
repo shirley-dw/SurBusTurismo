@@ -1,45 +1,61 @@
-.accordion {
+
+.accordion-list {
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+  align-items: center;
+  width: 50vw;
+}
+.accordion-list .accordion{
+  background-color: rgb(255, 255, 255);
   border: 1px solid black;
   border-radius: 10px;
-  padding: 5px;
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  align-items: center;
-  justify-content: center;
-  position: relative;
- 
+  padding: 10px;
+  display: block;  
 }
-
-.accordion-header {
+ .accordion-header {
+  max-width: 1000px;
   cursor: pointer;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: start; 
+  gap: 10px;
+ 
+}
+.accordion-title{
+  font-weight: 600;
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
-  gap: 0.5rem;
-  
 }
-
-.accordion-header:hover {
-  background-color: #ff7402;
-}
-
-.icon-plus {
-  font-size: 18px;
-  font-weight: bold;
-  
-}
-
 
 .accordion-content {
-  padding: 10px;
-  overflow: hidden;
+  padding: 5px;
+  max-width: 1000px;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
   transition: 0.5s;
+  text-align: start;
   display: none;
 }
 
 .accordion-content.open {
-  max-height: 500px; /* ajusta el valor según sea necesario */
   display: block;
+}
+
+.icon-closed{
+  color: rgb(244,110,0);
+  font-size: 1.5rem;
+ 
+}
+.icon-open{
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+}
+.arrow-closed{
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+
+}
+.arrow-open{
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
 }

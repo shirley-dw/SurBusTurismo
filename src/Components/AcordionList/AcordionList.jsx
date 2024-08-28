@@ -1,6 +1,9 @@
 //Importo librerias
 import React, { useState } from 'react';
-import { IoIosArrowDropdownCircle } from "react-icons/io";
+import { PiVanBold } from "react-icons/pi";
+import { IoIosArrowDown } from "react-icons/io";
+
+
 
 //Importo estilos
 import './AcordionList.css';
@@ -22,7 +25,7 @@ const AcordionList = () => {
       content: 'Nos comprometemos a cumplir con los horarios establecidos, asegurando que llegues a tu destino a tiempo.'
     },
     {
-      title: 'Atención Personalizada:',
+      title: 'Atención Personalizada',
       content: 'Nuestro equipo de profesionales está dedicado a ofrecer un servicio amable y atento, adaptado a las necesidades de cada cliente.'
     },
     {
@@ -31,7 +34,7 @@ const AcordionList = () => {
     },
     {
       title: 'Experiencia y Conocimiento',
-      content: 'Nuestra larga trayectoria nos permite ofrecer un servicio experto y bien informado, asegurando una experiencia de viaje excepcional. Confía en nosotros para tus necesidades de traslado y disfruta de un servicio de primera clase. '
+      content: 'Nuestra larga trayectoria nos permite ofrecer un servicio experto y bien informado, asegurando una experiencia de viaje excepcional. '
     },
   ];
 
@@ -40,13 +43,15 @@ const AcordionList = () => {
       {accordions.map((accordion, index) => (
         <div className="accordion" key={index}>
           <div className="accordion-header" onClick={() => handleToggle(index)}>
-            <h2>{accordion.title}</h2>
-            <IoIosArrowDropdownCircle 
+            <PiVanBold 
             className={openIndex === index ? 'icon-open' : 'icon-closed'} />
+            <h2 className="accordion-title">{accordion.title}</h2>
+            <IoIosArrowDown className={openIndex === index ? 'arrow-open' : 'arrow-closed'} />          
             <span className={openIndex === index ? 'icon-minus' : 'icon-plus'} />
           </div>
           <div className={`accordion-content ${openIndex === index ? 'open' : ''}`}>
             <p>{accordion.content}</p>
+            
           </div>
         </div>
       ))}
