@@ -34,7 +34,7 @@
 .title{
     
     color: rgb(244, 110, 0);
-    font-size: 4rem;
+    font-size: 5rem;
     text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
     font-family: "Squada One", sans-serif;
     font-weight: 600;
@@ -53,14 +53,14 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 1rem;
+    gap: 2rem;
 }
 .social-icons a{
     display: flex; 
     align-items: center;
     justify-content: center;
     color: rgb(0, 0, 0);
-    font-size: 2.5rem;
+    font-size: 3rem;
    }
 .social-icons .icons{
     display: flex;
@@ -82,55 +82,4 @@
 .social-icons .icons:hover{
     background-color: rgb(255, 115, 0);
     color: rgb(255, 255, 255);
-}
-.footer-section{
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    color: white;
-    font-size: 12px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    background-color: rgb(244,110,0);
-    margin: 10px 0;
-   
-}
-.service{
-    max-width: 1000px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    color: white;
-    padding: 40px;
-}
-
-.service-title{
-    color: rgb(255, 255, 255);
-}
-
-.description-service{
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    text-align: center;
-}
-.btn-wsp{
-   border: 2px solid black;
-   border-radius: 10px;
-   padding: 10px;
-   margin: 10px 0;
-   color: rgb(0, 0, 0);
-   background-color: rgb(255, 255, 255);
-   font-size: 15px;
-   font-family: 'Poppins', sans-serif;
-   font-weight: 600;
-}
-.btn-wsp a{
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    list-style: none;
 }
