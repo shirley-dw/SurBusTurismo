@@ -1,17 +1,17 @@
 [
     {
-        "image": "testimony1.jpg",
+        "image": "/carrousel/testimony1.jpg",
         "title": "Nuestros pasajeros",
         "id": 1
     },
     {
-        "image": "testimony2.jpg",
+        "image": "/carrousel/testimony2.jpg",
         "title": "viajes",
 
         "id": 2
     },
     {
-        "image": "testimony3.jpg",
+        "image": "/carrousel/testimony3.jpg",
         "title": "viajes",
         "id": 3
     }

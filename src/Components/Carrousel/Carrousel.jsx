@@ -18,8 +18,8 @@ const Carrousel = () => {
     <div className='carrousel'>
       {images.map((image) => (
         <div className='carrousel-item' key={image.id}>
-          <img src={image} alt={image.title} />
-        </div>
+<img src={image.image} alt={image.title} />
+</div>
       ))}
     </div>
   )
