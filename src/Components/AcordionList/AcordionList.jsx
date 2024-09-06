@@ -1,9 +1,6 @@
 //Importo librerias
 import React, { useState } from 'react';
 import { PiVanBold } from "react-icons/pi";
-import { IoIosArrowDown } from "react-icons/io";
-
-
 
 //Importo estilos
 import './AcordionList.css';
@@ -42,11 +39,10 @@ const AcordionList = () => {
     <div className="accordion-list">
       {accordions.map((accordion, index) => (
         <div className="accordion" key={index}>
-          <div className="accordion-header" onClick={() => handleToggle(index)}>
+          <div className="accordion-header" onClick={() => handleToggle(index)} >
             <PiVanBold 
             className={openIndex === index ? 'icon-open' : 'icon-closed'} />
-            <h2 className="accordion-title">{accordion.title}</h2>
-            <IoIosArrowDown className={openIndex === index ? 'arrow-open' : 'arrow-closed'} />          
+            <h2 className="accordion-title"> {accordion.title} </h2>
             <span className={openIndex === index ? 'icon-minus' : 'icon-plus'} />
           </div>
           <div className={`accordion-content ${openIndex === index ? 'open' : ''}`}>

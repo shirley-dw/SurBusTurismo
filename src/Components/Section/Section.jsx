@@ -7,16 +7,25 @@ import { FiFacebook } from "react-icons/fi";
 import './Section.css';
 // Importo componentes
 import AcordionList from '../AcordionList/AcordionList.jsx';
+import Carrousel from '../Carrousel/Carrousel.jsx';
 
 const Section = () => {
   return (
     <main className='section'>
       <div className='section-container'>
+
         <h1 className='title'>Sur Bus Turismo</h1>
         <span className='description'>Nuestras prinicipales caracteristicas</span>
         <AcordionList />
-          <h2 className='description-social'>Contactate a travez de nuestras redes sociales</h2>
-        <div className='social-icons'>
+        <Carrousel />
+      </div>
+    </main>
+  )
+}
+
+export default Section;
+
+/* <div className='social-icons'>
           <a href="https://wa.me/+541164422009" target="_blank" rel="noreferrer">
             <FaWhatsapp  className='icons'/>
           </a>
@@ -26,10 +35,4 @@ const Section = () => {
           <a href="https://www.instagram.com/surbusturismo/" target="_blank" rel="noreferrer">
             <FaInstagram className='icons'/>
           </a>
-        </div>
-      </div>
-    </main>
-  )
-}
-
-export default Section;
+        </div> */
