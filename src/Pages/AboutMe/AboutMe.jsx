@@ -3,19 +3,18 @@ import React from 'react'
 //Importo estilos
 import './AboutMe.css'
 //Importo componentes
-import AcordionAbout from '../../Components/AcordionAbout/AcordionAbout.jsx'
+
 
 const AboutMe = () => {
     return (
         <div className='about-container'>
             <div className='about-content'>   
             <div className='about-company'>
+        
             <h1 className='title-about'>Empresa</h1>
-            <AcordionAbout />
+            <span className='description-about'>Somos una agencia de viajes dedicada a crear momentos inolvidables junto a nuestros pasajeros.</span>
             </div>
-            <img src="./imagenes/sprinterpng.png" alt="" />
-            
-                 </div>
+            </div>
                  </div>
                 
     )
@@ -31,4 +30,15 @@ export default AboutMe
             <span className='description-about'>Los vehículos son conducidos por sus propios dueños con amplia experiencia en el traslado de pasajeros, quienes poseen registro profesional que dan garantía y confianza a todos aquellos que contratan nuestros servicios.</span>
             <span className='description-about'><b>Garantizamos una excelente atención, puntualidad, seguridad y confort.</b></span>
             <span className='description-about'>Cualquier consulta o sugerencia no dude en comunicarse enviándonos un e-mail a alankokoravec@gmail, o a través de nuestros formularios de contacto.</span>
-            </div> */
+            </div>
+            
+            
+            
+                <h1 className='title-about'>Empresa</h1>
+            <AcordionAbout />
+            </div>
+            <img src="./imagenes/sprinterpng.png" alt="" />
+            
+                 </div>
+            
+            */

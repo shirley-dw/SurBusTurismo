@@ -1,11 +1,22 @@
 //Importo librerias
 import React from 'react';
 import { PiVanBold } from "react-icons/pi";
+import Cards from '../../Components/Cards/Cards.jsx';
 //Importo estilos
 import './Service.css';
 const Service = () => {
   return (
-    <div className='service-container'>
+    <div className='service'>
+      <div className='service-container'>
+    <h1 className='title-service-major'>Nuestros servicios</h1>
+   <Cards/>
+   </div>
+   </div>
+  )
+}
+
+export default Service;
+/*  <div className='service-container'>
       <div className='service-content'>
         <h1 className='title-service-major'>Nuestros servicios</h1>
         <span className='description-service-major'>Brindamos atención a todas las personas que deseen trasladarse asegurando calidad, seguridad y confort en nuestros servicios.</span>
@@ -33,8 +44,4 @@ const Service = () => {
                   </div>
                   </div>
       </div>
-    </div>
-  )
-}
-
-export default Service;
+    </div> */

@@ -22,9 +22,10 @@
  
 }
 .accordion-title{
-  font-weight: 600;
-  font-size: 1rem;
-  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-family: "Barlow Condensed", sans-serif;
+  
 }
 
 .accordion-content {
@@ -44,6 +45,8 @@
 .icon-closed{
   color: rgb(244,110,0);
   font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
  
 }
 .icon-open{
