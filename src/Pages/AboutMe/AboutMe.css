@@ -18,16 +18,37 @@
     background: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgb(36, 37, 37) 0%, rgba(0, 0, 0, 0.9473039215686274) 100%);
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    align-items: center;
-}
-.about-company{
-    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    max-width: 500px;
 }
+
+.about-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+}
+
+.about-company {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.caracteristics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+
+}
+
 
 .title-about {
     color: rgb(244, 110, 0);
@@ -41,10 +62,52 @@
 
 
 .description-about {
-    text-align: center;
-    color: white;
-    font-size: 1rem;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
     font-family: 'Poppins', sans-serif;
-    
+  
 }
 
+
+.subtitle-about {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    text-align: justify;
+
+}
+
+.caracteristic-title {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: "Squada One", sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    margin: 0 10px;
+}
+
+.description-caracteristics {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 10px;
+}
+
+.color-icon {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.li-caracteristics {
+    list-style: none;
+}
+
+.progress-bar .progress {
+    width: 150px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: start;
+    margin: 10px 0;
+}
