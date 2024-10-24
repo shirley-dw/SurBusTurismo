@@ -56,4 +56,3 @@ const AcordionList = () => {
 };
 
 export default AcordionList;
-

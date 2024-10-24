@@ -1,45 +1,45 @@
 .carrousel-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  padding: 20px;
-}
-
-.carrousel-content {
-  max-width: 1000px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.carrousel {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  padding: 5px;
-  width: 100%;
-}
-
-.carrousel-item {
-  flex: 0 0 3333%; /* Ajusta el ancho de cada item del carrusel para mostrar tres al inicio */
-  margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 20px;
+  }
   
-  border-radius: 10px;
-  transition: transform 0.3s ease-in-out;
-  object-fit: cover;
-}
-
-.carrousel-item img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 10px;
-  border: 1px solid #ddd;
-}
-
-.carrousel-item.active {
-  transform: scale(1.2); /* Escala la imagen activa */
-  position: absolute; /* Necesario para z-index */
-  z-index: 3; /* Coloca la imagen activa delante de las otras */
-}
+  .carrousel-content {
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carrousel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .carrousel-item {
+    flex: 0 0 3333%; /* Ajusta el ancho de cada item del carrusel para mostrar tres al inicio */
+    margin: 20px;
+    
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    object-fit: cover;
+  }
+  
+  .carrousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .carrousel-item.active {
+    transform: scale(1.2); /* Escala la imagen activa */
+    position: absolute; /* Necesario para z-index */
+    z-index: 3; /* Coloca la imagen activa delante de las otras */
+  }
