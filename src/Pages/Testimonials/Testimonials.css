@@ -1,17 +1,12 @@
 .testimonials-container{
-    width: 100vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
-    background-image: url(/imagenes/testimonials.jpg);
     background-repeat: no-repeat;
     background-size: cover; /* Para que la imagen se adapte al contenedor */
 }
 .testimonials-content{
-    width: 100vw;
-    height: 100vh;
     background: rgb(0, 0, 0);
     background: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgb(36, 37, 37) 0%, rgba(0, 0, 0, 0.9473039215686274) 100%);
     display: flex;

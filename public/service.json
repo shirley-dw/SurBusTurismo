@@ -1,0 +1,33 @@
+[{
+    "id": 1,
+    "title": "Transporte de personal",
+    "description": "Disponemos de todos los requisitos necesarios para que sus empreados viajen seguros y tranquilos",
+    "image": "/imagenes/people.png"
+
+}, {
+    "id": 2,
+    "title": "Servicio para particulares",
+    "description": "Servicio de combis con un recorrido hecho a la medida de lo que necesites para cada ocacion",
+    "image": "/imagenes/van.png"
+}, {
+    "id": 3,
+    "title": "Transfer a aeropuertos",
+    "description": " Traslados para gruspo de diferentes tamaños. Podes viajar de manera segura al aeropuerto de tu destino",
+    "image": "/imagenes/aeropuerto.png"
+}, {
+    "id": 4,
+    "title": "Charter para empresas",
+    "description": "Transporte de empleados administrativos y trabajadores de planta aseguran puntualidad de los mismos",
+    "image": "/imagenes/empresa.png"
+}, {
+    "id": 5,
+    "title": "Transportes para eventos",
+    "description": "Transporte para eventos corporativos, casamientos, cenas, fiestas y eventos de gran magnitud",
+    "image": "/imagenes/events.png"
+}, {
+    "id": 6,
+    "title": "Transporte de turismo",
+    "description": "Transporte de turismo nacional, internacional y de ocaciones especiales",
+    "image": "/imagenes/tourism.png"
+}
+  ]

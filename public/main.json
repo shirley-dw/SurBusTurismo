@@ -1,0 +1,24 @@
+[{
+    "id": 1,
+    "title": "TRASLADO DE PERSONAL",
+    "button": "Ver Servicio",
+    "image": "/imagenes/sprinter3.jpg"
+},
+{
+    "id": 2,
+    "title": "TRASLADO A AEROPUERTOS",
+    "button": "Ver Servicio",
+    "image": "/imagenes/sprinter1.jpg"
+},
+{
+    "id": 3,
+    "title": "TURISMO NACIONAL",
+    "button": "Ver Servicio",
+    "image": "/imagenes/sprinter2.jpg"
+},
+{
+    "id": 4,
+    "title": "TRASLADO DE PARTICULARES",
+    "button": "Ver Servicio",
+    "image": "/imagenes/sprinter3.jpg"
+}]

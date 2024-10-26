@@ -1,47 +1,51 @@
-//Importo librerias
 import React from 'react';
-import { PiVanBold } from "react-icons/pi";
-import Cards from '../../Components/Cards/Cards.jsx';
-//Importo estilos
+import { useParams } from 'react-router-dom';
+import { useServicios } from '../../hooks/useServicios';
+import Header from '../../Components/Header/Header.jsx';
 import './Service.css';
+
 const Service = () => {
-  return (
-    <div className='service'>
-      <div className='service-container'>
-    <h1 className='title-service-major'>Nuestros servicios</h1>
-   <Cards/>
-   </div>
-   </div>
-  )
-}
+    const { id } = useParams();
+    const { servicios, loading, error } = useServicios();
+    const service = servicios.find(service => service.id === parseInt(id, 10));
+
+    if (loading) {
+        return <div>Loading...</div>;
+    }
+
+    if (error) {
+        return <div>Error: {error.message}</div>;
+    }
+
+    if (!service) {
+        return <div>Service not found</div>;
+    }
+
+    return (
+        <div className='service-container'>
+            <Header />
+            <div className='service-content'>
+                <div className='service-main'>
+                <div className='service-info'>
+                    <h1 className='title-service-major'>Seguridad  |  Puntualidad  |  Eficiencia</h1>
+                    <p className='description-service'>Desde hace más de 20 años, nos especializamos en ofrecer a múltiples Empresas nuestro excelente servicio. </p>
+                    <p className='description-service'> Es por esto que, ahora, muchos clientes de grandes sectores empresariales o industriales. </p>
+                    <p className='description-service'>Nos confían el traslado de personal administrativo y operativo.</p>
+                    <button className='btn-service'>Ver todos los servicios</button>
+                    </div>
+                </div>
+                <ul className='service-grid'>
+                    {servicios.map((service, index) => (
+                        <li key={index} className='service-card'>
+                            <img src={service.image} alt={service.title} className='service-image' />
+                            <h2 className='title-service'>{service.title}</h2>
+                            <p className='description-service-major'>{service.description}</p>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        </div>
+    );
+};
 
 export default Service;
-/*  <div className='service-container'>
-      <div className='service-content'>
-        <h1 className='title-service-major'>Nuestros servicios</h1>
-        <span className='description-service-major'>Brindamos atención a todas las personas que deseen trasladarse asegurando calidad, seguridad y confort en nuestros servicios.</span>
-       
-        <div className='footer-section'>
-                  <div className='service'>
-                  <div className='service-company'>
-                  <h1 className='service-title'> <PiVanBold className='icon-van'/> SERVICIO DE TRANSPORTE PARA EMPRESAS</h1>
-                  <span className='description-service'>Brindamos atención a todas las empresas que deseen trasladar a sus ejecutivos o empleados, asegurando calidad, seguridad y confort en nuestros servicios.</span>
-                  <br />
-                  <button className='btn-wsp'><a href="https://wa.me/+541164422009" target="_blank" rel="noreferrer">Contactate</a></button>
-                  </div>
-                  <div className='service-private'>
-                  <h1 className='service-title'> <PiVanBold className='icon-van'/> SERVICIO DE TRANSPORTE A PARTICULARES</h1>
-                  <span className='description-service'>Damos atención a todas las personas que deseen trasladarse de forma privada a cualquier destino del País, asegurando calidad, seguridad y confort.</span>
-                  <br />
-                  <button className='btn-wsp'><a href="https://wa.me/+541164422009" target="_blank" rel="noreferrer">Contactate</a></button>
-                  </div>
-                  <div className='service-tourism'>
-                  <h1 className='service-title'> <PiVanBold className='icon-van'/> SERVICIO DE TURISMO NACIONAL</h1>
-                  <span className='description-service'>Ofrecemos servicios de turismo nacional para todos aquellos que deseen explorar las maravillas de nuestro país. Garantizamos calidad, seguridad y confort en cada uno de nuestros viajes, asegurando una experiencia inolvidable para nuestros clientes.</span>
-                  <br />
-                  <button className='btn-wsp'><a href="https://wa.me/+541164422009" target="_blank" rel="noreferrer">Contactate</a></button>
-                  </div>
-                  </div>
-                  </div>
-      </div>
-    </div> */

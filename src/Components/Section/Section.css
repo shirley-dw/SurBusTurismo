@@ -1,88 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.section {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    background-color: black;
-    background-image: url(/imagenes/lateralsprinter.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
 
-.section-container {
-    width: 100vw;
-    height: 100vh;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgb(36, 37, 37) 0%, rgba(0, 0, 0, 0.9473039215686274) 100%);
+
+/* Container */
+.service-container- {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
     align-items: center;
-}
-
-
-.title{
-    
-    color: rgb(244, 110, 0);
-    font-size: 5rem;
-    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
-    font-family: "Squada One", sans-serif;
-    font-weight: 600;
-    text-align: center;
-   margin-top: 100px;
-    
+    justify-content: center;
+    background-color: #4a4a4a87;
+    position: relative;
+    overflow: hidden; /* Evitar scroll horizontal */
   
 }
-.description{
-    text-align: center;
+
+/* Carousel */
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center; 
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 95vh;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
     color: white;
-    font-size: 1.5rem;
-    width: 50vw;
-    font-family: 'Poppins', sans-serif;
-    padding: 10px;
+    overflow: hidden;
+    position: relative;
 }
-/* .social-icons{
+
+.carousel-content {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; 
+    gap: 10px;
+    padding: 40px; 
+   
 }
-.social-icons a{
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    color: rgb(0, 0, 0);
+/* Titles */
+.carousel-content .title-service {
     font-size: 3rem;
-   }
-.social-icons .icons{
+    color: white;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1em;
+}
+/* Button service */
+.service-button {
     display: flex;
-    padding: 0.5rem;
-    border-radius: 50%;
-    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px;
+    font-size: 1rem;
+    color: white;
+    border: 4px solid #008cff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+    background-color: #008cff7b;
+}
+.service-button:hover {
+    background-color: #008cff; 
+}
+
+/* Arrows */
+.arrow-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.arrow-controls {
+    font-size: 3rem;
+    color: white;
     cursor: pointer;
 }
-.description-social{
-    text-align: center;
-    color: white;
-    font-size: 1.5rem;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    padding: 0.5rem;
-    display: flex; 
-    
-} 
-.social-icons .icons:hover{
-    background-color: rgb(255, 115, 0);
-    color: rgb(255, 255, 255);
+.arrow-controls:hover {
+    color: #008cff;
 }
- */
+/* Controllers */
+.carousel-controls {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: calc(100% - 40px);
+    position: absolute;
+    bottom: 40px;
+    gap: 30px;
+ 
+}
+/* Dots */
+.carousel-dots {
+    position: absolute;
+    bottom: 60px;
+    left: 35px;
+    display: flex;
+    gap: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: rgba(255, 255, 255, 1
+    );
+}
+
+.prev, .next {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+

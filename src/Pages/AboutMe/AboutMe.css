@@ -1,113 +1,83 @@
-.about-container {
+
+.section-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
-    background-image: url(/imagenes/logo5.jpeg);
+    align-items: flex-start;
+    padding: 50px;
+    height: 80vh;
+    background: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url('/public/imagenes/turismo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 4000px rgba(0, 0, 0, 0.699);
+    gap: 10%;
 }
 
-.about-content {
-    width: 100vw;
-    height: 100vh;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgb(36, 37, 37) 0%, rgba(0, 0, 0, 0.9473039215686274) 100%);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+.info-container {
+    z-index: 1;
+    width: 35%;
 }
 
-.about-section {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 50px;
-}
-
-.about-company {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 400px;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 20px;
-}
-
-.caracteristics {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 500px;
-
-}
-
-
-.title-about {
-    color: rgb(244, 110, 0);
-    font-size: 5rem;
-    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
-    font-family: "Squada One", sans-serif;
+.title {
+    font-size: 3rem;
     font-weight: 600;
-    text-align: center;
-    padding: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: "Barlow Condensed", sans-serif;
+    
 }
-
 
 .description-about {
-    text-align: justify;
-    color: rgb(0, 0, 0);
     font-size: 18px;
+    color: white;
     font-family: 'Poppins', sans-serif;
-  
-}
-
-
-.subtitle-about {
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    font-family: "Oswald", sans-serif;
-    font-weight: bold;
-    text-align: justify;
-
-}
-
-.caracteristic-title {
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    font-family: "Squada One", sans-serif;
     font-weight: 400;
-    text-align: justify;
-    margin: 0 10px;
+    font-style: normal;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    line-height: 2rem;
 }
 
-.description-caracteristics {
-    color: rgb(0, 0, 0);
+.subtitle {
     font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    margin: 0 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 20px;
+    
 }
-
-.color-icon {
+.img-about{
+    width: 20px;
+    color: #df8e1df6;
+}
+.btn-container {
+    display: flex;
+    gap: 20px;
+}
+.btn-service-about {
+    position: relative; 
+    border: 1px solid rgb(17, 17, 17);
+    padding: 10px;
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
 }
 
-.li-caracteristics {
-    list-style: none;
+.btn-service-about::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: #008cfff6;
+    z-index: -1;
+    
 }
 
-.progress-bar .progress {
-    width: 150px;
-    height: 40px;
-    justify-content: space-between;
-    align-items: start;
-    margin: 10px 0;
-}

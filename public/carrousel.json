@@ -1,48 +1,48 @@
 [
     {
-        "image": "/carrousel/testimony1.jpg",
+        "image": "/imagenes/testimony1.jpg",
         "title": "Nuestros pasajeros",
         "id": 1
     },
     {
-        "image": "/carrousel/testimony2.jpg",
+        "image": "/imagenes/testimony2.jpg",
         "title": "viajes",
         "id": 2
     },
     {
-        "image": "/carrousel/testimony3.jpg",
+        "image": "/imagenes/testimony3.jpg",
         "title": "viajes",
         "id": 3
     }
     ,
     {
-        "image": "/carrousel/testimony4.jpg",
+        "image": "/imagenes/testimony4.jpg",
         "title": "viajes",
         "id": 4
     }
     ,
     {
-        "image": "/carrousel/testimony5.jpg",
+        "image": "/imagenes/testimony5.jpg",
         "title": "viajes",
         "id": 5
     },
     {
-        "image": "/carrousel/testimony6.jpg",
+        "image": "/imagenes/testimony6.jpg",
         "title": "viajes",
         "id": 6
     },
     {
-        "image": "/carrousel/testimony7.jpg",
+        "image": "/imagenes/testimony7.jpg",
         "title": "viajes",
         "id": 7
     },
     {
-        "image": "/carrousel/testimony8.jpg",
+        "image": "/imagenes/testimony8.jpg",
         "title": "viajes",
         "id": 8
     },
     {
-        "image": "/carrousel/testimony9.jpg",
+        "image": "/imagenes/testimony9.jpg",
         "title": "viajes",
         "id": 9
     }

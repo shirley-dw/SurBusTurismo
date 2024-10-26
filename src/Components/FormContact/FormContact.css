@@ -1,0 +1,66 @@
+/* Form Container */
+.form-container {
+    text-align: left;
+    background: #fff;
+    padding: 20px;
+    background-color: #ccccccd0;
+    
+}
+
+.title-form {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 20px;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.reservation-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.form-input {
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #8b8787;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.form-textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #8b8787;
+    border-radius: 5px;
+    height: 150px;
+    text-align: justify;
+}
+.form-textarea::placeholder {
+    font-family: Oswald, sans-serif;
+    text-align: center;
+}
+.reservation-form .captcha {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.btn-submit {
+    border: 1px solid rgb(116, 115, 115);
+    padding: 10px;
+    color: white;
+    background-color: #008cfff6;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.btn-submit:hover {
+    background-color: rgba(255, 115, 0, 1);
+
+}

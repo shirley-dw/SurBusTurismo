@@ -1,68 +1,77 @@
-/* Estilos de NavBar */
-
 /* Import fonts */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
-    --PrimaryFonts: 'Oswald', sans-serif;
-    --SecondaryFonts: 'DM Sans', sans-serif;
-    --TertiaryFonts: 'Poppins', sans-serif;
-    --PrimaryColor: #ffa240;
-    --SecondaryColor: #FFFFFF;
-    --ColorFont: white;
-    --QuaternaryColor: #FFC700; 
-}
-.NavBar{
-    width: 100vw;
-    height: 100px;
+.NavBar {
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
-.navigate{
+
+.navigate {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 6rem;
     text-decoration: none;
-    margin-top: 20px;
+    justify-content: space-between;
 }
-.nav-items a{
+
+.nav-items a {
     text-decoration: none;
-    color: white;
-    font-family: var(--SecondaryFonts);
+    color: rgb(1, 1, 1);
+    font-family: "Barlow Condensed", serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 23px;
-    font-weight: 600;
-    list-style: none;
-}
-.nav-items{
     list-style: none;
 }
 
-.btn-contact{
+.nav-items {
+    list-style: none;
+}
+
+.btn-contact {
     width: 150px;
     height: 40px;
     background-color: white;
     color: black;
-    font-family: var(--PrimaryFonts);
+    font-family: "Barlow Condensed", serif;
     font-size: 20px;
     font-weight: 600;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
     text-decoration: none;
-   
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 15px 0 rgba(0,0,0,0.19);
+    list-style: none;
+    text-decoration: none;
 }
-.nav-items a:hover{
+.btn-contact a{
+    text-decoration: none;
+    color: black;
+}
+.btn-contact:hover a {
+    background-color: #4086d0;
+    color: white;
+}
+.btn-contact:hover  {
+    background-color: #4086d0;
+    color: white;
+}
+.nav-items a:hover {
     color: rgb(255, 106, 0);
-
 }
-.nav-items:hover{
+
+.nav-items:hover {
     transform: rotate(3deg);
     transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) .5s;
+}
+
+.img {
+    width: 150px;
+    height: 80px;
 }
