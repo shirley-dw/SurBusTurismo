@@ -1,0 +1,141 @@
+.testimonials-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: 'Barlow Condensed', sans-serif;
+    
+ 
+}
+
+.testimonials-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    
+  
+
+}
+.testimony-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+    background-image: url('/public/imagenes/turismo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 4000px rgba(0, 0, 0, 0.699);
+    gap: 10%;
+
+  
+    
+
+}
+.description-testimonys{
+   
+    font-size: 20px;
+    color: #ffffff;
+    margin: 5px;
+    font-family: 'Oswald', sans-serif;
+    z-index: 1;
+}
+/* Tipographias */
+.title-testimonials {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    padding: 20px;
+       
+}
+.subtitle-testimonys {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 65%;
+   
+    
+}
+.title-testimonials-list {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 4px 4px 2px rgba(255, 254, 254, 0.6);
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    padding: 20px;
+    text-align: left;
+}
+
+
+
+.testimonials-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    
+}
+
+.testimonial-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.testimonial-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border    : 1px solid #ccc;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.btn-whatsapp-fix {
+    position: fixed; /* Fija el botón en la pantalla */
+    bottom: 20px; /* Ajusta según lo necesites */
+    right: 20px; /* Ajusta según lo necesites */
+    width: 50px; /* Tamaño del botón */
+    height: 50px; /* Tamaño del botón */
+    background-color: #25D366; /* Color del botón */
+    border-radius: 50%; /* Forma circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 2000; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+.btn-whatsapp-fix img {
+    width: 100%; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantén la proporción de la imagen */
+}
+
+.btn-whatsapp-fix:active {
+    transform: scale(0.9); /* Efecto al hacer clic */
+}
+
+.btn-whatsapp-fix:hover {
+    background-color: #128C7E; /* Cambia el color al pasar el ratón */
+}
+ .stars{
+ width: 50px;
+ }

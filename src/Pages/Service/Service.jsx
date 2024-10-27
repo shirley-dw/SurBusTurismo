@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useServicios } from '../../hooks/useServicios';
 import Header from '../../Components/Header/Header.jsx';
+import Footer from '../../Components/Footer/Footer.jsx';
 import './Service.css';
 
 const Service = () => {
@@ -44,6 +45,7 @@ const Service = () => {
                     ))}
                 </ul>
             </div>
+            <Footer />
         </div>
     );
 };

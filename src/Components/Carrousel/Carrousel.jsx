@@ -7,7 +7,7 @@ import React from 'react';
 import './Carrousel.css';
 import 'react-multi-carousel/lib/styles.css';
 //Importo imagenes
-import { ObtenerImages } from "../../../src/Fetching/imagesFetching.js";
+import { ObtenerImages } from "../../Fetching/imagesFetching.js";
 
 const Carrousel = () => {
   const [images, setImages] = useState([]);

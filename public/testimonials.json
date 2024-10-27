@@ -1,0 +1,26 @@
+[{
+    "id": 1,
+    "title": "Experiencia general",
+    "description": "“Nuestro viaje a Tandil fue increíble. La agencia se encargó de todos los detalles, desde los traslados hasta las excursiones. ¡No tuvimos que preocuparnos por nada!.”",
+    "image": "/imagenes/tandil.jpg",
+    "author": "Jorge"
+}, {
+    "id": 2,
+    "title": "Atención al cliente",
+    "description": "“El equipo de búsqueda al cliente fue excepcional. Nos ayudaron a resolver todas nuestras dudas y nos dieron recomendaciones excelentes para nuestro viaje.”",
+    "image": "/imagenes/testimony2.jpg",
+    "author": "Maria"
+}, {
+    "id": 3,
+    "title": "Viajes de negocios",
+    "description": "“La agencia se encargó de todos los arreglos para mi viaje de negocios. Todo salió perfecto y pude concentrarme en mi trabajo sin preocupaciones.”",
+    "image": "/imagenes/empresa.jpg",
+    "author": "Empleado de Negocios"
+}, {
+    "id": 4,
+    "title": "Viajes en familia",
+    "description": "“Viajamos con nuestros hijos a por Cordoba. La agencia se aseguró de que cada detalle estuviera cubierto, hizo que nuestro viaje fuera inolvidable.”",
+    "image": "/imagenes/testimony4.jpg",
+    "author": "Familia de Julia"
+}
+]

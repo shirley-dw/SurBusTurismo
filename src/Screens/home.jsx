@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Section} from "../Screens/index.js";
+import { Header, Section, Footer, Testimonys} from "../Screens/index.js";
 
 
 const Home = () => {
@@ -7,6 +7,9 @@ const Home = () => {
         <>
             <Header />
             <Section />
+            <Testimonys />
+            <div className="space" style={{ height: "100px" }}></div>
+            <Footer />
         </>
     );
 }
